@@ -1,6 +1,7 @@
 ﻿using System;
+using RefactoringKatas.References;
 
-namespace RefactoringKatas.Creation
+namespace RefactoringKatas
 {
     // Use creation methods
 

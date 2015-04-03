@@ -39,13 +39,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CapitalStrategy.cs" />
-    <Compile Include="CapitalStrategyRCTL.cs" />
-    <Compile Include="CapitalStrategyRevolver.cs" />
-    <Compile Include="CapitalStrategyTermLoan.cs" />
-    <Compile Include="Creation\Loan.cs" />
-    <Compile Include="Creation\LoanNew.cs" />
+    <Compile Include="Constructor Chain\LoanNew.cs" />
+    <Compile Include="Constructor Chain\Loan.cs" />
+    <Compile Include="References\CapitalStrategy.cs" />
+    <Compile Include="References\CapitalStrategyRCTL.cs" />
+    <Compile Include="References\CapitalStrategyRevolver.cs" />
+    <Compile Include="References\CapitalStrategyTermLoan.cs" />
+    <Compile Include="Creation - Loan\Loan.cs" />
+    <Compile Include="Creation - Loan\LoanNew.cs" />
+    <Compile Include="Creation - StringParser\DecodingStringNode.cs" />
+    <Compile Include="Creation - StringParser\Node.cs" />
+    <Compile Include="Creation - StringParser\StringBuffer.cs" />
+    <Compile Include="Creation - StringParser\StringNode.cs" />
+    <Compile Include="Creation - StringParser\StringParserNew.cs" />
+    <Compile Include="Creation - StringParser\StringParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="References\RevolvingTermROC.cs" />
+    <Compile Include="References\TermROC.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
