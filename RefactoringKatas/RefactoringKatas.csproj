@@ -39,6 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Compose Method\ComposedMethodNew.cs" />
+    <Compile Include="Compose Method\ComposedMethod.cs" />
     <Compile Include="Constructor Chain\LoanNew.cs" />
     <Compile Include="Constructor Chain\Loan.cs" />
     <Compile Include="References\CapitalStrategy.cs" />
